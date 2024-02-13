@@ -12,13 +12,9 @@
   </style>
 </head>
 <body>
-  <h1>Random Image</h1>
-  <div id="banner">
     <img id="randomImage" src="" alt="Random Image">
-  </div>
-
   <script>
-    let NUM_IMAGES = 3;
+    let NUM_IMAGES = 4;
     function getRandomImage() {
       var randomNumber = Math.floor(Math.random() * (NUM_IMAGES)) + 1;
       var imageUrl = 'image' + randomNumber + '.jpg'; // Assuming images are named as image1.jpg, image2.jpg, etc.
